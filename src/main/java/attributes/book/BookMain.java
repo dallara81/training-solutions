@@ -1,4 +1,4 @@
-ppackage attributes.book;
+package attributes.book;
 
 public class BookMain {
 
