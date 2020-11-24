@@ -18,7 +18,7 @@ public class ChangeLetterEgyedi {
 
         {
             if (ch[i]=='i'||ch[i]=='e'||ch[i]=='a'||ch[i]=='u'||ch[i]=='o')
-            // if (ch[i]=='a'||ch[i]=='á'||ch[i]=='e'||ch[i]=='é'||ch[i]=='i'||ch[i]=='í'||ch[i]=='o'||ch[i]=='ó'||ch[i]=='ö'||ch[i]=='ő'||ch[i]=='u'||ch[i]=='ú')
+            // if (ch[i]=='a'||ch[i]=='á'||ch[i]=='e'||ch[i]=='é'||ch[i]=='i'||ch[i]=='í'||ch[i]=='o'||ch[i]=='ó'||ch[i]=='ö'||ch[i]=='ő'||ch[i]=='u'||ch[i]=='ú'||ch[i]=='ü'||ch[i]=='ű')
                 // Csere, ha a magyar magánhangzókat sem szeretjük
             {
                 ch[i]='*'; // OSB! Ez a csillagozás-dolog nekem még jól jöhet később is! Hehe
