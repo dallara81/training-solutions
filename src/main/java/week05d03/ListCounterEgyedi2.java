@@ -6,7 +6,7 @@ public class ListCounterEgyedi2 {
 
     public static void main(String[] args) {
 
-        String test = "A rekettyésben eltévedt a medve, mi tagadás, hat a 6 alma, %-a 6 x 6, te marha!";
+        String test = "A rekettyésben eltévedt a medve - mi tagadás - hat a 6 alma, %-a 6 x 6, te marha!";
         count(test);
 
     }
