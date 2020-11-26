@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+    @DisplayName("Így lehet kiíratni az adott teszhez saját nevet. Hasznos - már ha szétszedem a teszteket :D")
     @Test
     public void ProductTest() {
 
