@@ -1,6 +1,5 @@
-package _gyakorlas;
+package xxxgyakorlas;
 
-import java.util.*;
 import java.time.*;
 
     public class DateChecker {
