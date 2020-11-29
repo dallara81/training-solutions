@@ -18,7 +18,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 
-public class PungPong extends JComponent implements ActionListener, MouseMotionListener, KeyListener {
+public class Pong360 extends JComponent implements ActionListener, MouseMotionListener, KeyListener {
 
     // A szükséges változók megadása
     private int labdax = 150;
@@ -37,11 +37,11 @@ public class PungPong extends JComponent implements ActionListener, MouseMotionL
     public int pontlegjobb1;
     public boolean jatekVege, started;
 
-    // Main - Maine, ha olvasod, tudod kinek szól ;) - metódus
+    // Main - Maine az nem Main, ha olvasnád Kristóf ;) - metódus
     public static void main(String[] args) {
 
         JFrame wind = new JFrame("Pong360");
-        PungPong g = new PungPong();
+        Pong360 g = new Pong360();
         wind.add(g);
         wind.pack();
         wind.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
