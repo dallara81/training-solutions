@@ -105,7 +105,7 @@ public class PungPong extends JComponent implements ActionListener, MouseMotionL
         g.setFont(new Font("Arial", 8, 50));
 
         if (gameOver) {
-            g.drawString(String.valueOf(" Legmagasabb pontszám:" + scorefinal), 50 / 1 - 15, 200);
+            g.drawString(String.valueOf(" Legmagasabb pontszám : " + scorefinal), 50 / 1 - 15, 200);
         }
     }
 
