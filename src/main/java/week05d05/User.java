@@ -1,9 +1,40 @@
 package week05d05;
 
-// Készíts egy osztályt week05d05.User néven, melynek van egy firstName (String), egy lastName (String) és egy email (String) mezője.
-// Legyen ellenőrzés az User konstruktorában, mely hibát jelez, ha nincs @ és . (pont) az e-mail cimben!
-// Készíts egy metódust is getFullName névvel, mely visszaadja a firstName és a lastName változókat összefűzve.
-// Legyen közöttük egy whitespace (" ").
+// E-mail cím ellenőrző
+// PONT ilyen feladatot kívántam 1,5-2 hete egy kommentben :)))
+// Emlékeztető: csinálni búnuszfeladatként TLD-ellenőrzőt is!
 
-public class User {
+    public class User {
+
+        private String email;
+        private String firstName;
+        private String lastName;
+
+        public User(String firstName, String lastName, String email) {
+
+            int occurence=email.indexOf("@");
+            if (email.indexOf("@") == -1 || email.substring(occurence).indexOf(".")== -1){
+
+                throw new IllegalArgumentException("Helytelen e-mail cím! A\'.\' vagy a \'@\' nem található!");
+
+            }
+
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email;
+
+        }
+
+        public String getFullName() {
+            return (firstName+" "+lastName);
+
+        }
+
+        public static void main(String[] args) {
+
+            System.out.println("István Kovács, istvan.kovacs@sil.space");
+            User user1 = new User("István","Kovács","istvan.kovacs@sil.space");
+
+        }
+
 }
