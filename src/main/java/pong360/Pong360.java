@@ -37,7 +37,7 @@ public class Pong360 extends JComponent implements ActionListener, MouseMotionLi
     public int pontlegjobb1;
     public boolean jatekVege, started;
 
-    // Main - Maine az nem Main, ha olvasnád Kristóf ;) - metódus
+    // Main - Maine az nem Main ;) - metódus
     public static void main(String[] args) {
 
         JFrame wind = new JFrame("Pong360");
