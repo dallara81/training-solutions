@@ -98,11 +98,11 @@ public class Pong360 extends JComponent implements ActionListener, MouseMotionLi
         if (pont >= 5) {
             g.setColor(Color.red);
             g.setFont(new Font("Algerian", 8, 36));
-            g.drawString(String.valueOf(pont + pont1), 30 / 1 - 15, 50);
+            g.drawString(String.valueOf(pont + pont1), 30 / 1 - 10, 50);
         } else {
             g.setColor(Color.white);
             g.setFont(new Font("Algerian", 8, 36));
-            g.drawString(String.valueOf(pont), 30 / 1 - 15, 50);
+            g.drawString(String.valueOf(pont), 30 / 1 - 10, 50);
         }
         // Indulás és Játék Vége
         g.setColor(Color.white);
