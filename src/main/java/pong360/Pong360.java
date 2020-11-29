@@ -146,7 +146,6 @@ public class Pong360 extends JComponent implements ActionListener, MouseMotionLi
             labdaxSebessege = 5;
         }
 
-        //**********************************************************************
         labdax1 = labdax1 + labdax1Sebessege;
         labday1 = labday1 + labday1Sebessege;
 
