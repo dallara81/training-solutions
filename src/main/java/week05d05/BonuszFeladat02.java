@@ -1,5 +1,8 @@
 package week05d05;
 
+// Week05d05 - Bónuszfeladat 2 (EmailValidator)
+// e-mail ellenőrzése EmailValidator-ral
+
 import java.util.List;
 import java.util.ArrayList;
 import org.apache.commons.validator.routines.EmailValidator;
@@ -33,6 +36,3 @@ public class BonuszFeladat02 {
         }
     }
 }
-
-
-
