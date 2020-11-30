@@ -44,7 +44,7 @@ public class BodyMass {
         // Az eredmény kiírása
         System.out.println(result);
 
-        // Zárjuk is be ezt a sz@rt, jobb nem látni az eredményt.
+        // Zárjuk is le ezt a sz@rt.
         scan.close();
     }
 }
