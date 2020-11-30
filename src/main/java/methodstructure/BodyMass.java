@@ -1,7 +1,5 @@
 package methodstructure;
 
-package bodymass;
-
 import java.util.Scanner;
 
 public class BodyMass {
