@@ -20,7 +20,7 @@ public class IfElse2 {
                 }
             } else {
 
-                // n2 nagyonn vagy egyenlő n3-vel?
+                // n2 nagyobb vagy egyenlő n3-vel?
                 if (n2 >= n3) {
                     largest = n2;
                 }
