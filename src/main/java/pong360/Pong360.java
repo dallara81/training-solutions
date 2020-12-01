@@ -1,21 +1,9 @@
 package pong360;
 
 // Ami kell, ami nem - jöhet!
-import java.awt.Graphics;
-import java.awt.Color;
-import java.awt.Font;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.Timer;
-import javax.swing.WindowConstants;
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
 
 public class Pong360 extends JComponent implements ActionListener, MouseMotionListener, KeyListener {
@@ -97,11 +85,11 @@ public class Pong360 extends JComponent implements ActionListener, MouseMotionLi
         // Pontok
         if (pont >= 5) {
             g.setColor(Color.red);
-            g.setFont(new Font("Algerian", 8, 48));
+            g.setFont(new Font("Broadway", 8, 48));
             g.drawString(String.valueOf(pont + pont1), 30 / 1 - 8, 56);
         } else {
             g.setColor(Color.white);
-            g.setFont(new Font("Algerian", 8, 48));
+            g.setFont(new Font("Broadway", 8, 48));
             g.drawString(String.valueOf(pont), 30 / 1 - 8, 56);
         }
         // Indulás és Játék Vége
