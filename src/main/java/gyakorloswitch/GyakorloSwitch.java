@@ -4,9 +4,9 @@ public class GyakorloSwitch {
 
     public static void main(String[] args) {
 
-        int day = 5;
+        int nap = 5;
 
-        switch (day) {
+        switch (nap) {
             case 1:
                 System.out.println("Hétfő");
                 break;
