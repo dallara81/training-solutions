@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BudgetTest {
@@ -23,6 +22,7 @@ public class BudgetTest {
         Item item5 = new Item(100000, 8, "közlekedés");
         Item item6 = new Item(100000, 2, "egyéb");
         Item item7 = new Item(400000, 1, "tartalékképzés");
+        Item item8 = new Item(30000, 8, "kultúra");
 
         itemList.add(item1);
         itemList.add(item2);
@@ -31,6 +31,7 @@ public class BudgetTest {
         itemList.add(item5);
         itemList.add(item6);
         itemList.add(item7);
+        itemList.add(item8);
     }
 
     @Test
