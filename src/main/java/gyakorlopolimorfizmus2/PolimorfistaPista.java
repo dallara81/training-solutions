@@ -1,4 +1,4 @@
-package Gyakorlopolimorfizmus2;
+package gyakorlopolimorfizmus2;
 
 public class PolimorfistaPista {
 
