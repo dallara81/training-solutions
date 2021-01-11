@@ -6,7 +6,6 @@ package week11d01;
 
 public class DivisorFinder {
 
-
     public int findDivisors(int n) {
         String sn = "" + n;
         int x;
