@@ -7,7 +7,7 @@ import java.util.Collections;
 public class MathAlgorithms {
 
     private static void isZero(int number1, int number2){
-        if (number1 ==0 || number2 ==0 ){throw  new IllegalArgumentException("A nullával aló osztás értelmetlen!");}
+        if (number1 ==0 || number2 ==0 ){throw  new IllegalArgumentException("A nullával való osztás értelmetlen!");}
     }
 
     private static List<Integer> sort(int number1, int number2){
