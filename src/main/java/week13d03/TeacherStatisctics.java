@@ -1,5 +1,5 @@
 package week13d03;
-//Meginteg
+// Jáj...
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +44,7 @@ public class TeacherStatistics {
             throw new IllegalStateException("...és a fájl b*szod?");
         }
         System.out.println("Biszibaszi István: " + tStat.weekWork("Biszibaszi István"));
-        System.out.println("Taknyos Aladár: " + tStat.weekWork("Talnyos Aladár"));
+        System.out.println("Taknyos Aladár: " + tStat.weekWork("Taknyos Aladár"));
         System.out.println("Köcsög Gerson: " + tStat.weekWork("Köcsög Gerson"));
     }
 }

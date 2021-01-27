@@ -1,8 +1,5 @@
 package week13d03;
-// Fis-fos-hülye feladat,
-// Értelme nem sok.
-// Mindegy, csinálj valamit,
-// Az értelem itt nem szempont.
+// Fis-fos-hülye feladat
 
 public class Teacher {
     private String name;
