@@ -1,7 +1,7 @@
-package week03day02;
+package week03d02;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Position {
 
