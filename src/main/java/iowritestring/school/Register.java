@@ -1,4 +1,4 @@
-package school;
+package iowritestring.school;
 
 import java.util.List;
 import java.io.IOException;
