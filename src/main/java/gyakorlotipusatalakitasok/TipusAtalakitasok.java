@@ -7,7 +7,7 @@ public class TipusAtalakitasok {
 
         char first = 'b';
         int second = 2;
-        String third = "" + first;
-        third = "" + second;
+        String third = "Az eredmény: " + first + second;
+        System.out.println(third);
     }
 }
