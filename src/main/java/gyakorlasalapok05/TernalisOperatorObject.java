@@ -15,7 +15,7 @@ public class TernalisOperatorObject {
         //    System.out.println("A név: " + firstName);
         // }
 
-        // *** if / else helyett az alábbi ugyanaz: ***
+        // *** OBS! if / else helyett az alábbi ugyanaz: ***
 
         System.out.println( first.getName() == null ? "Nincs név!" : "A név: " + first.getName() );
 
