@@ -1,7 +1,7 @@
 # Beállítások a `pom.xml`-ben
 
 Beállítja, hogy a forrásfájlok karakterkódolása `UTF-8` legyen,
-és 15-ös Javat használjon.
+és 15-ös verziójú Javat használjon.
 
 ```xml
 <properties>
